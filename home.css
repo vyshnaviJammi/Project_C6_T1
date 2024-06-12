@@ -120,9 +120,8 @@ h4{
 .col-4 p{
 font-size: 14px;
 }
-.rating .fa{
+.rating  {
     color:#3bd8ff
-
 }
 .col-4:hover{
     transform: translateY(-5px);
