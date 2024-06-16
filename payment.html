@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookstore Checkout Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <nav>
         <h1>Checkout</h1>
     </nav>
+    <div class="main">
     <div class="container">
         <div class="address-form">
             <h2>Enter a new shipping address</h2>
@@ -322,9 +321,6 @@
             <input type="text" id="address" name="address" required>
             <label for="area">Area, Street, Sector, Village</label>
             <input type="text" id="area" name="area" required>
-            <a href="payment.html" target="_blank">
-                <button type="submit">Add Address</button>
-            </a>
         </div>
         <div class="order-summary">
             <h2>Order Summary</h2>
@@ -335,6 +331,51 @@
             </ul>
         </div>
     </div>
+    <div class="container2">
+        <form action="">
+            <h2>Select a payment method</h2>
+    <h3>Another payment method</h3>
+  
+  <div class="payment-option">
+    <label>Credit or debit card</label>
+    <img src="https://i.pinimg.com/originals/65/29/a7/6529a74c68df9e3fbe26892cffd19862.jpg" alt="" height="200" width="400">
+    <input type="radio" id="card" name="payment-method">
+    <label for="card">Visa, MasterCard, RuPay</label>
+  </div>
+  
+  <div class="payment-option">
+    <label for="net-banking">Net Banking</label>
+    <select id="net-banking">
+      <option>Choose an Option</option>
+      <option><a href="https://yonobusiness.sbi/">SBI</option></a>
+      <option>HDFC</option>
+    </select>
+  </div>
+  
+  <div class="payment-option">
+    <input type="radio" id="upi" name="payment-method">
+    <label for="upi">Other UPI Apps</label>
+    <img src="https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2020/08/google-pay-phonepe-1597071677.jpg" alt="" width="400px" height="150px">
+  </div>
+  
+  <div class="payment-option">
+    <input type="radio" id="emi" name="payment-method">
+    <label for="emi">EMI</label>
+    <select name="emi-type" id="">
+        <option>select duration of emi</option>
+        <option>3-months</option>
+    </select>
+  </div>
+  
+  <div class="payment-option">
+    <input type="radio" id="cod" name="payment-method">
+    <label for="cod">Cash on Delivery/Pay on Delivery</label>
+  </div>
+    <button><a href="bookdescription.html">Use this payment method</a></button> 
+</form>
+    </div>
+</div>
+</div>
 </body>
 
 </html>
